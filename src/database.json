@@ -1,6 +1,6 @@
 {
   "users": {
-    "923184070915@s.whatsapp.net": {
+    "919605612983@s.whatsapp.net": {
       "serialNumber": "0eae1af5145d445f4e7a69739aa2e971",
       "title": "Premium",
       "afkTime": -1,
@@ -11,7 +11,7 @@
       "limit": 1000,
       "totalLimit": 0
     },
-    "923184070915@s.whatsapp.net": {
+    "919744108970@s.whatsapp.net": {
       "serialNumber": "84a6d900b59ff9b86da982ae409f5973",
       "title": "Premium",
       "afkTime": -1,
@@ -25,7 +25,7 @@
   },
   "database": {},
   "chats": {
-    "120363047626537933@g.us": {
+    "120363147596692892@g.us": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -43,7 +43,7 @@
       "antilink": false,
       "antilinkgc": false
     },
-    "923184070915@s.whatsapp.net": {
+    "919744108970@s.whatsapp.net": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -61,7 +61,7 @@
       "antilink": false,
       "antilinkgc": false
     },
-    "923184070915@s.whatsapp.net": {
+    "919744108970@s.whatsapp.net": {
       "badword": false,
       "antiforeignnum": false,
       "antibot": false,
@@ -84,7 +84,7 @@
     "math": []
   },
   "settings": {
-    "923184070915@s.whatsapp.net": {
+    "919744108970@s.whatsapp.net": {
       "totalhit": 49,
       "totalError": 0,
       "online": false,
@@ -101,16 +101,16 @@
       "autotype": false,
       "watermark": {
         "packname": "Sticker By",
-        "author": "🦄드림 가이 Xeon\n\n+916909137213"
+        "author": "🦄𝗴𝗼𝗱 𝘇𝗲𝗻𝗶𝘁𝘀𝘂\n\n+919744108970"
       },
       "about": {
         "bot": {
           "nick": "Oke",
-          "alias": "XLICON-V3-MD"
+          "alias": "nezuko-V3-MD"
         },
         "owner": {
-          "nick": "+923184070915",
-          "alias": "923184070915"
+          "nick": "+919744108970",
+          "alias": "919605612983"
         }
       }
     }
