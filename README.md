@@ -1,21 +1,21 @@
 
 
-# `XLICON-V3-MD`
+# `NEZUKO-V3-MD`
 <br>
 <br>
 
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=3F00FF&center=true&width=900&height=100&lines=Its%20XLICON-V3-MD;%20Multi-Device%20WhatsApp%20Bot;%20Developed%20By%20SALMAN%20AHMAD)
+![Typing SVG](https://chat.whatsapp.com/DcGABEejUwOG8YcgGOcizF)
 <p align="center">
   
 >XLICON-V3-MD is based on :
->- [Cheems V10](https://github.com/DGXeon) by [DGXeon](https://github.com/DGXeon) (License: Apache License 2.0)
+>- [ZENITSU](https://github.com/godzenitsu) by [DINKEN SER](https://github.com/Dinkenser12) (License: Apache License 2.0)
 >
-> :unicorn: Don't forget to check out! :point_right: [Cheems V10](https://github.com/DGXeon)
+> :unicorn: Don't forget to check out! :point_right: [ZENITSU](https://github.com/godenitsu )
 </p>
 
 ## 🌟 `Bot Intro and Features`
-[![XLICON](https://i.ibb.co/sgdGM1P/XLICON-V3.jpg)](https://youtube.com/@s4salmanyt)
+[![XLICON](https://i.imgur.com/PskvW9Q.jpeg)](https://www.instagram.com/whoois.zenitsu)
 
 <p align="center">
 <a href="https://github.com/salmanytofficial"><img title="Author" src="https://img.shields.io/badge/CREATOR-SALMAN SER-black.svg?style=for-the-badge&logo=github"></a>
