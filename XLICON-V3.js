@@ -443,7 +443,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
                 showAdAttribution: true,
                 title: botname,
                 body: ownername,
-                thumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+                thumbnail: fs.readFileSync("https://i.imgur.com/PskvW9Q.jpeg"),
                 sourceUrl: websitex,
                 mediaType: 1,
                 renderLargerThumbnail: true,
@@ -460,10 +460,10 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       key: { participant: "0@s.whatsapp.net", remoteJid: "status@broadcast" },
       message: {
         groupInviteMessage: {
-          groupJid: "6288213840883-1616169743@g.us",
+          groupJid: "120363147596692892@g.us",
           inviteCode: "m",
-          groupName: `${xeontext1}`,
-          caption: `${xeontext1}`,
+          groupName: `${nezuko1}`,
+          caption: `${nezuko1}`,
           jpegThumbnail: thumb,
         },
       },
@@ -504,7 +504,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       },
       message: {
         imageMessage: {
-          url: "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
+          url: "https://i.imgur.com/PskvW9Q.jpeg",
           mimetype: "image/jpeg",
           caption: botname,
           fileSha256: "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
@@ -641,7 +641,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       message: {
         contactMessage: {
           displayName: ownername,
-          vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=916909137213:916909137213\nitem1.X-ABLabel:Mobile\nEND:VCARD`,
+          vcard: `BEGIN:VCARD\nVERSION:3.0\nN:XL;${ownername},;;;\nFN:${ownername}\nitem1.TEL;waid=919744108970:919605612983\nitem1.X-ABLabel:Mobile\nEND:VCARD`,
           jpegThumbnail: thumb,
           thumbnail: thumb,
           sendEphemeral: true,
@@ -656,7 +656,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       },
       message: {
         imageMessage: {
-          url: "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
+          url: "https://i.imgur.com/PskvW9Q.jpeg",
           mimetype: "image/jpeg",
           caption: wm,
           fileSha256: "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
@@ -668,7 +668,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
           directPath:
             "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69",
           mediaKeyTimestamp: "1610993486",
-          jpegThumbnail: fs.readFileSync("./XliconMedia/theme/xliconpic.jpg"),
+          jpegThumbnail: fs.readFileSync("https://i.imgur.com/PskvW9Q.jpeg"),
           scansSidecar:
             "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw==",
         },
@@ -1018,7 +1018,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       XliconBotInc.sendText("120363167338947238@g.us", { text: `Reset Limit` });
     }
     // Grup Only
-    if (!m.isGroup && !XeonTheCreator && db.data.settings[botNumber].onlygrub) {
+    if (!m.isGroup && !zenitsuTheCreator && db.data.settings[botNumber].onlygrub) {
       if (isCommand) {
         return replygcXlicon(
           `*_Hello buddy! Because We Want to Reduce Spam, Please Use Bot in the Group Chat !_*\n\n*_If you have issue please chat owner wa.me/${ownernumber}_*`
@@ -1047,10 +1047,10 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
     }
     //auto set bio\\
     if (db.data.settings[botNumber].autobio) {
-      XliconBotInc.updateProfileStatus(
+      NEZUKOBotInc.updateProfileStatus(
         `${botname} 📃 𝐇𝐚𝐯𝐞 𝐁𝐞𝐞𝐧 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 💻 ${runtime(
           process.uptime()
-        )}...                                   ~𝐒𝐓𝐀𝐑 ⭐ 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐎𝐧 𝐆𝐢𝐭𝐇𝐮𝐛...                       🏮 © Xʟɪᴄᴏɴ-Iɴᴄ
+        )}...                                   ~𝗧𝗛𝗘 𝗢𝗪𝗡𝗘𝗥 𝗜𝗦 𝗭𝗘𝗡𝗜𝗧𝗦𝗨...                       🏮 © Xʟɪᴄᴏɴ-Iɴᴄ
      `
       ).catch((_) => _);
     }
@@ -2703,7 +2703,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
             .map((v) => v.id);
           replygcXlicon(`*_Success in pushing the message to contacts_*`);
           for (let pler of mem) {
-            XliconBotInc.sendMessage(pler, { text: q });
+            NEZUKOBotInc.sendMessage(pler, { text: q });
           }
           replygcXlicon(`*_Done_*`);
         }
@@ -2721,7 +2721,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
           const metadata2 = await XliconBotInc.groupMetadata(q.split("|")[0]);
           const halss = metadata2.participants;
           for (let mem of halss) {
-            XliconBotInc.sendMessage(
+            NEZUKOBotInc.sendMessage(
               `${mem.id.split("@")[0]}` + "@s.whatsapp.net",
               { text: q.split("|")[1] }
             );
@@ -2739,7 +2739,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
             : m.quoted
             ? m.quoted.sender
             : text.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
-          await XliconBotInc.updateBlockStatus(users, "block");
+          await NEZUKOBotInc.updateBlockStatus(users, "block");
           await replygcXlicon(`*_Done_*`);
         }
         break;
@@ -2752,7 +2752,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
             : m.quoted
             ? m.quoted.sender
             : text.replace(/[^0-9]/g, "") + "@s.whatsapp.net";
-          await XliconBotInc.updateBlockStatus(users, "unblock");
+          await NEZUKOBotInc.updateBlockStatus(users, "unblock");
           await replygcXlicon(`*_Done_*`);
         }
         break;
@@ -2764,7 +2764,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
             return replygcXlicon(
               `*_Text mana?_*\n\nExample : ${prefix + command} Besok Libur `
             );
-          let getGroups = await XliconBotInc.groupFetchAllParticipating();
+          let getGroups = await NEZUKOBotInc.groupFetchAllParticipating();
           let groups = Object.entries(getGroups)
             .slice(0)
             .map((entry) => entry[1]);
@@ -2788,7 +2788,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
                   showAdAttribution: true,
                   title: botname,
                   body: `Sent in ${i.length} Group`,
-                  thumbnailUrl: "https://i.ibb.co/c8JJBZZ/peakpx-2.jpg",
+                  thumbnailUrl: "https://i.imgur.com/PskvW9Q.jpeg",
                   sourceUrl: wagc,
                   mediaType: 1,
                   renderLargerThumbnail: true,
@@ -2802,7 +2802,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
         }
         break;
       case "getcase":
-        if (!XeonTheCreator) return XliconStickOwner();
+        if (!ZENITSUTheCreator) return XliconStickOwner();
         try {
           const getCase = (cases) => {
             return (
