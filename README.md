@@ -18,10 +18,10 @@
 [![XLICON](https://i.imgur.com/PskvW9Q.jpeg)](https://www.instagram.com/whoois.zenitsu)
 
 <p align="center">
-<a href="https://github.com/salmanytofficial"><img title="Author" src="https://img.shields.io/badge/CREATOR-SALMAN SER-black.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/godzenitsu"><img title="Author" src="https://img.shields.io/badge/CREATOR-ZENITSU SER-black.svg?style=for-the-badge&logo=github"></a>
 
 ### ℹ️ **About XLICON-V3**
-XLICON-V3 is a Cool Multi-Device WhatsApp bot developed by [Salman Ahamed](https://github.com/salmanytofficial). It offers a wide range of extraordinary features, making it an advanced and user-friendly bot for various purposes.
+XLICON-V3 is a Cool Multi-Device WhatsApp bot developed by [GODZENITSU](https://github.com/godzenitsu). It offers a wide range of extraordinary features, making it an advanced and user-friendly bot for various purposes.
 
 <p align="center"><img src="https://profile-counter.glitch.me/{XLICON-V3}/count.svg" alt="SALMAN AHMAD :: Visitor's Count" /></p>
 
